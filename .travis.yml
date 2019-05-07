@@ -3,7 +3,8 @@ node_js:
 - '11.15.0'
 beforescript:
 - npm install -g gulp
-- npm install
+- npm install --save del
+- gulp build
 script:
 - gulp package-app
 deploy:
